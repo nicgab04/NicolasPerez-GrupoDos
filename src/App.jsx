@@ -13,7 +13,6 @@ function App() {
         <Routes>
           <Route path='/Homepage' element={<Homepage />} />
           <Route path='/product/:productId' element={<ItemDetail />} />
-          <Route path='/Sellpage' element={<Sellpage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
