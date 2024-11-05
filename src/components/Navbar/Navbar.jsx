@@ -1,4 +1,3 @@
-import Sellpage from '../Sellpage/Sellpage';
 import './Navbar.css'
 import { Link } from 'react-router-dom';
 
@@ -18,7 +17,6 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
             <Link className='nav-link' to="/Vender">Vender</Link>
-              <Link className='nav-link' to={Sellpage}></Link>
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
